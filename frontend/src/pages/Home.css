@@ -1,0 +1,97 @@
+/* Statistics Section */
+.statistics-section {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--gov-blue) 0%, var(--gov-dark-blue) 100%);
+  color: white;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.stat-card {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat-card h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.stat-card p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Search Section */
+.search-section {
+  padding: 3rem 0;
+  background: var(--gov-light);
+}
+
+.search-box {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.search-input {
+  flex: 1;
+  padding: 1.2rem 1.5rem;
+  border: none;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.search-btn {
+  padding: 1.2rem 2rem;
+  background: linear-gradient(135deg, var(--gov-green) 0%, #0d7c5a 100%);
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  background: linear-gradient(135deg, #0d7c5a 0%, #0b6b4b 100%);
+}
+
+/* Responsive Design for Statistics */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .stat-card h3 {
+    font-size: 2.5rem;
+  }
+  
+  .search-box {
+    flex-direction: column;
+    border-radius: 8px;
+  }
+  
+  .search-input {
+    padding: 1rem;
+  }
+  
+  .search-btn {
+    padding: 1rem;
+  }
+}

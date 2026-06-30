@@ -1,0 +1,46 @@
+# Node Modules (never upload these!)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables (SECRET KEYS!)
+.env
+.env.local
+.env.development
+.env.production
+
+# Build folders
+dist/
+build/
+.DS_Store
+
+# Backend files to hide
+backend/node_modules/
+backend/.env
+backend/package-lock.json
+
+# Frontend files to hide
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/package-lock.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+error.log
+
+# OS files
+Thumbs.db
+.DS_Store

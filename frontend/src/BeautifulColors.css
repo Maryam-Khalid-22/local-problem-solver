@@ -1,0 +1,252 @@
+/* Beautiful Professional Color Scheme */
+:root {
+  /* Primary Colors */
+  --primary-blue: #2563eb;
+  --primary-dark: #1e40af;
+  --primary-light: #3b82f6;
+  
+  /* Secondary Colors */
+  --secondary-teal: #0d9488;
+  --secondary-dark: #0f766e;
+  --secondary-light: #14b8a6;
+  
+  /* Accent Colors */
+  --accent-coral: #f97316;
+  --accent-dark: #ea580c;
+  --accent-light: #fb923c;
+  
+  /* Neutral Colors */
+  --neutral-dark: #1f2937;
+  --neutral-gray: #6b7280;
+  --neutral-light: #f3f4f6;
+  --neutral-white: #ffffff;
+  
+  /* Status Colors */
+  --success-green: #10b981;
+  --warning-orange: #f59e0b;
+  --error-red: #ef4444;
+  --info-blue: #06b6d4;
+}
+
+/* Apply the new color scheme */
+.header {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-dark) 100%) !important;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.2) !important;
+}
+
+.logo h1 {
+  background: linear-gradient(45deg, var(--accent-coral), var(--secondary-teal)) !important;
+}
+
+.nav a {
+  color: var(--neutral-white) !important;
+}
+
+.nav a:hover {
+  color: var(--accent-light) !important;
+}
+
+.nav a::after {
+  background: linear-gradient(45deg, var(--accent-coral), var(--secondary-teal)) !important;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-teal) 100%) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-coral) 0%, var(--accent-dark) 100%) !important;
+  box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3) !important;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, var(--accent-dark) 0%, #c2410c 100%) !important;
+  box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4) !important;
+}
+
+.btn-secondary {
+  background: transparent !important;
+  border: 2px solid var(--neutral-white) !important;
+  color: var(--neutral-white) !important;
+}
+
+.btn-secondary:hover {
+  background: var(--neutral-white) !important;
+  color: var(--primary-blue) !important;
+}
+
+/* Problem Cards */
+.problem-card {
+  background: var(--neutral-white) !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 12px !important;
+}
+
+.problem-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12) !important;
+  transform: translateY(-4px) !important;
+  border-color: var(--primary-light) !important;
+}
+
+/* Status Badges */
+.status-open {
+  background: linear-gradient(135deg, var(--success-green) 0%, #059669 100%) !important;
+  color: white !important;
+}
+
+.status-in-progress {
+  background: linear-gradient(135deg, var(--warning-orange) 0%, #d97706 100%) !important;
+  color: white !important;
+}
+
+.status-closed {
+  background: linear-gradient(135deg, var(--info-blue) 0%, #0891b2 100%) !important;
+  color: white !important;
+}
+
+/* Category Tags */
+.category-tag {
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-blue) 100%) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+/* Voting Buttons */
+.upvote {
+  background: linear-gradient(135deg, var(--success-green) 0%, #059669 100%) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.upvote:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%) !important;
+  transform: translateY(-2px) !important;
+}
+
+.downvote {
+  background: linear-gradient(135deg, var(--error-red) 0%, #dc2626 100%) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.downvote:hover {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* View Details Button */
+.view-details-btn {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-dark) 100%) !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border: none !important;
+}
+
+.view-details-btn:hover {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #1e3a8a 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3) !important;
+}
+
+/* Features Section */
+.features-section {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%) !important;
+}
+
+.feature-card {
+  background: var(--neutral-white) !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06) !important;
+}
+
+.feature-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-5px) !important;
+  border-color: var(--primary-light) !important;
+}
+
+/* Text Colors */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--neutral-dark) !important;
+}
+
+p {
+  color: var(--neutral-gray) !important;
+}
+
+/* Problems Section Background */
+.problems-section {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%) !important;
+}
+
+/* Form Elements */
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+  border-color: var(--primary-blue) !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1) !important;
+}
+
+/* Auth Pages */
+.auth-container {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-teal) 100%) !important;
+}
+
+.auth-card {
+  background: var(--neutral-white) !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.auth-btn {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-dark) 100%) !important;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3) !important;
+}
+
+.auth-btn:hover {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #1e3a8a 100%) !important;
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4) !important;
+}
+
+/* Report Problem Page */
+.report-problem {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%) !important;
+}
+
+.problem-form {
+  background: var(--neutral-white) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.submit-button {
+  background: linear-gradient(135deg, var(--accent-coral) 0%, var(--accent-dark) 100%) !important;
+  box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3) !important;
+}
+
+.submit-button:hover {
+  background: linear-gradient(135deg, var(--accent-dark) 0%, #c2410c 100%) !important;
+  box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4) !important;
+}
+
+/* Beautiful subtle animations */
+* {
+  transition: all 0.3s ease !important;
+}
+
+/* Professional hover effects */
+.btn, .vote-btn, .view-details-btn, .auth-btn, .submit-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Enhanced shadows for depth */
+.header, .problem-card, .feature-card, .auth-card, .problem-form {
+  transition: box-shadow 0.3s ease, transform 0.3s ease !important;
+}
+
+/* Beautiful gradient backgrounds */
+.hero-section, .auth-container {
+  background-attachment: fixed !important;
+}
